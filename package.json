@@ -1,0 +1,14 @@
+{
+  "name": "aaaie-eslintrc",
+  "version": "1.0.0",
+  "description": "eslint file to keep our codebase consistent",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "richi jeffery",
+  "license": "ISC"
+}
