@@ -121,7 +121,7 @@
       }
     ],
     "space-before-blocks": 2,
-    object-curly-spacing: ["error", "always"],
+    "object-curly-spacing": ["error", "always"],
     "no-useless-constructor": 2,
     "comma-dangle": 2,
     "no-extra-boolean-cast": 2,
