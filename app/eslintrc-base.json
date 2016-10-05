@@ -84,10 +84,7 @@
       "keywords": true
     }
   ],
-  "jsx-quotes": [
-    2,
-    "prefer-double"
-  ],
+  
   "keyword-spacing": [
     2,
     {

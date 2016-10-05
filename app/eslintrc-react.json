@@ -1,4 +1,8 @@
 {
+  "jsx-quotes": [
+    2,
+    "prefer-double"
+  ],
   "react/jsx-curly-spacing": 1,
   "react/jsx-key": 1,
   "react/jsx-no-duplicate-props": 1,
