@@ -11,7 +11,7 @@ file though you also want to make sure you install the packages.
 ### Installation
 
 ```
-$ npm i --save-dev eslint@latest eslint-loader@latest eslint-plugin-react@latest
+$ npm i --save-dev 
 ```
 
 ### Atom

@@ -7,8 +7,27 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "eslint"
+    "eslint","aaaie-eslint","eslint generator"
   ],
+  "engines": {
+    "node": ">=6.6.0"
+  },
+  "bin": {
+    "init-aaaie-eslint": "./app/index.js"
+  },
   "author": "richi jeffery",
-  "license": "ISC"
+  "license": "ISC",
+  "contributors": [
+    {
+      "name": "Dan Turco",
+      "email": "don.turco@csaa.com"
+    }
+  ],
+  "dependencies": {
+    "commander": "^2.9.0",
+    "eslint": "3.7.1",
+    "eslint-loader": "1.5.0",
+    "eslint-plugin-react": "6.3.0",
+    "lodash":"4.16.3"
+  }
 }
