@@ -1,6 +1,6 @@
 {
   "name": "aaaie-eslintrc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint file to keep our codebase consistent",
   "main": "index.js",
   "scripts": {

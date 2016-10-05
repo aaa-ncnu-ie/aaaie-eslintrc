@@ -19,3 +19,14 @@ $ npm i --save-dev git://github.com/aaa-ncnu-ie/aaaie-eslintrc.git
 Look for the package `linter-eslint` and `tabs-to-spaces`.  The `tabs-to-spaces` is pretty legit.  When
 you save a file it converts the tabs to spaces.  Simple setup.  
 
+### Command Line Usage
+
+$  node app/index.js --help
+
+  Usage: index [options] <includeReac>
+
+  Options:
+
+    -h, --help         output usage information
+    -r, --react        Include ReactJS rules
+    -d, --dest [dest]  Destination of the created aaaie eslint file
