@@ -11,7 +11,7 @@ file though you also want to make sure you install the packages.
 ### Installation
 
 ```
-$ npm i --save-dev git://github.com/aaa-ncnu-ie/aaaie-eslintrc.git
+$ npm i -g git://github.com/aaa-ncnu-ie/aaaie-eslintrc.git
 ```
 
 ### Atom
@@ -19,3 +19,14 @@ $ npm i --save-dev git://github.com/aaa-ncnu-ie/aaaie-eslintrc.git
 Look for the package `linter-eslint` and `tabs-to-spaces`.  The `tabs-to-spaces` is pretty legit.  When
 you save a file it converts the tabs to spaces.  Simple setup.  
 
+### Command Line Usage
+
+$  init-aaaie-eslint --help
+
+  Usage: index [options] <includeReac>
+
+  Options:
+
+    -h, --help         output usage information
+    -r, --react        Include ReactJS rules
+    -d, --dest [dest]  Destination of the created aaaie eslint file

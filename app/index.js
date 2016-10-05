@@ -26,7 +26,7 @@ if (program.react) {
   }
 }
 template.rules = _.merge(template.rules, regRules, reactRules);
-fs.writeFile(path.join(program.dest, '.eslintrc.json'), JSON.stringify(template), function(err) {
+fs.writeFile(path.join(program.dest, '.eslintrc.json'), JSON.stringify(template, null, 2), function(err) {
     if(err) {
         return console.log(err);
     }
