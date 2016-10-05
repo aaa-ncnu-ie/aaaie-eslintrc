@@ -11,7 +11,7 @@ file though you also want to make sure you install the packages.
 ### Installation
 
 ```
-$ npm i --save-dev git://github.com/aaa-ncnu-ie/aaaie-eslintrc.git
+$ npm i -g git://github.com/aaa-ncnu-ie/aaaie-eslintrc.git
 ```
 
 ### Atom
@@ -21,7 +21,7 @@ you save a file it converts the tabs to spaces.  Simple setup.
 
 ### Command Line Usage
 
-$  node app/index.js --help
+$  init-aaaie-eslint --help
 
   Usage: index [options] <includeReac>
 
