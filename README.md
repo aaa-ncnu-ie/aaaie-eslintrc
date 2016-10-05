@@ -11,7 +11,7 @@ file though you also want to make sure you install the packages.
 ### Installation
 
 ```
-$ npm i --save-dev 
+$ npm i --save-dev git://github.com/aaa-ncnu-ie/aaaie-eslintrc.git
 ```
 
 ### Atom
